@@ -1,4 +1,4 @@
-package com.example.weixin;
+﻿package com.example.weixin;
 
 import java.net.Inet4Address;
 import java.net.InetAddress;
@@ -28,7 +28,7 @@ import com.tencent.mm.sdk.openapi.WXTextObject;
 import com.tencent.mm.sdk.openapi.WXWebpageObject;
 
 public class MainActivity extends Activity {
-	private static final String App_ID = "wx1e49f29bc1e0a666";
+	private static final String App_ID = "你申请到的微信AppKey";
 	private IWXAPI apiIwxapi;
 	TextView xTextView;
 	TelephonyManager phoneMgr;

@@ -1,4 +1,4 @@
-package com.example.weixin;
+﻿package com.example.weixin;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
@@ -53,9 +53,9 @@ public class SinaActivity extends Activity {
 	WebSettings webSettings;
 	String access_token;
 	Button button;
-	String App_Key = "1492986589";
+	String App_Key = "申请的AppKey";
 	String Rediert_url = "https://api.weibo.com/oauth2/default.html";
-	String App_Secret = "02e9744edb8a5691a9e9d7403690d12c";
+	String App_Secret = "生成的Secret";
 	String code;
 	public static final String authUrl = "https://open.weibo.cn/oauth2/authorize";// ����΢����Ȩ��ַ
 	public static final String authUrl2 = "https://open.weibo.cn/oauth2/access_token";// ����΢����Ȩ��ַ
