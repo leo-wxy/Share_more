@@ -1,0 +1,61 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <Button
+        android:id="@+id/share_haoyou"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:text="分享给好友" />
+
+    <Button
+        android:id="@+id/share_pengyouquan"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:text="分享给朋友圈" />
+
+    <Button
+        android:id="@+id/share_sina"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:text="用新浪微博分享" />
+
+    <Button
+        android:id="@+id/ipaddr"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:text="获取Ip地址" />
+
+    <Button
+        android:id="@+id/phoneIn"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:text="获取手机信息" />
+
+    <Button
+        android:id="@+id/facebook"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:text="FaceBook分享" />
+
+    <Button
+        android:id="@+id/twitter"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:text="Twitter分享" />
+    <Button
+        android:id="@+id/change"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:text="@string/change_language" />
+
+
+    <TextView
+        android:id="@+id/xinxi"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
